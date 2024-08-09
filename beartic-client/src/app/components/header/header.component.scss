@@ -1,0 +1,16 @@
+.section-presentation{
+    background-image: linear-gradient(#0575E6, #1A46B4);
+    padding: 1%;
+    color: white;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 1%;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
