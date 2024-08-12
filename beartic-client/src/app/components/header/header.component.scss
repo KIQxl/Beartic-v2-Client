@@ -1,16 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .section-presentation{
     background-image: linear-gradient(#0575E6, #1A46B4);
     padding: 1%;
     color: white;
+
+    h2{
+        padding: 0 0 0 2%;
+    }
 }
 
-.nav-list{
+.nav-header{
+    box-shadow: 0 0 8px 0 gray;
+    padding: 1%;
+}
+
+.nav-list {
     display: flex;
     list-style: none;
-    gap: 1%;
-}
+    gap: 7%;
+    width: 100%;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    padding: 0 0 0 2%;
 
-.nav-list a {
-    text-decoration: none;
-    color: black;
+    a {
+        text-decoration: none;
+        color: black;
+    }
 }

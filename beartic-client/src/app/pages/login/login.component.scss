@@ -17,19 +17,19 @@ main{
     flex-direction: column;
     gap: 1rem;
     color: white;
-}
 
-.left-content h1{
-    font-size: 3rem;
-}
+    h1{
+        font-size: 3rem;
+    }
 
-.left-content button{
-    width: 43%;
-    padding: 1%;
-    border: none;
-    border-radius: 20px;
-    background-color: #0575E6;
-    color: white;
+    button{
+        width: 43%;
+        padding: 1%;
+        border: none;
+        border-radius: 20px;
+        background-color: #0575E6;
+        color: white;
+    }
 }
 
 .right-side{
@@ -51,12 +51,12 @@ main{
     flex-direction: column;
     width: 100%;
     gap: 1rem;
-}
 
-.form-login input{
-    border-radius: 30px;
-    padding: 4%;
-    border: solid 1px gray;
+    input{
+        border-radius: 30px;
+        padding: 4%;
+        border: solid 1px gray;
+    }
 }
 
 .btn-login{
@@ -79,13 +79,16 @@ main{
         
     }
 
-    .left-content button{
-        padding: 1%;
-        margin: auto;
-    }
+    .left-content {
 
-    .left-content h1{
-        font-size: 2rem;
+        button{
+            padding: 1%;
+            margin: auto;
+        }
+
+        h1{
+            font-size: 2rem;
+        }
     }
 
     .left-side, .right-side{
