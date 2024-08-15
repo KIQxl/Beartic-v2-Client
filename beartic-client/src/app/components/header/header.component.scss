@@ -15,20 +15,29 @@
 
 .nav-header{
     box-shadow: 0 0 8px 0 gray;
-    padding: 1%;
-}
 
-.nav-list {
-    display: flex;
-    list-style: none;
-    gap: 7%;
-    width: 100%;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    padding: 0 0 0 2%;
-
-    a {
-        text-decoration: none;
-        color: black;
+    .nav-list {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        li{
+            padding: 1% 3%;
+            text-align: center;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+    
+            &:hover {
+                transition: .3s;
+                background-color: #1A46B4; // Cor alterada ao passar o mouse
+                
+                a{
+                    color: white;
+                }
+            }
+        }
     }
 }

@@ -1,14 +1,32 @@
 footer{
-    margin-bottom: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
-
+    background-image: linear-gradient(#0575E6, #1A46B4);
 }
 
-.ul-footer{
+.ul-footer-us, .ul-footer-social{
     display: flex;
     gap: 5%;
     justify-content: center;
-    font-size: 1.3rem;
+    font-size: 120%;
+    padding: 1%;
+}
+
+.ul-footer-social{
+    gap: 4%;
+    font-size: 2rem;
+
+    li{
+        &:hover{
+            transform: scale(1.3);
+            transition: 0.2s;
+        }
+    }
+}
+
+.ul-footer-social a, .ul-footer-us a{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
 }
