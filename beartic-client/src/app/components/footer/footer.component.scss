@@ -10,7 +10,8 @@ footer{
     gap: 5%;
     justify-content: center;
     font-size: 120%;
-    padding: 1%;
+    padding: 1% 0 0 0;
+    list-style: none;
 }
 
 .ul-footer-social{
@@ -29,4 +30,26 @@ footer{
     color: white;
     text-decoration: none;
     text-transform: none;
+}
+
+@media(width < 700px){
+    footer{
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ul-footer-us{
+        justify-content: center;
+        font-size: 100%;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+    }
+
+    .ul-footer-social{
+        font-size: 100%;
+        gap: 10%;
+        width: 50%;
+    }
 }

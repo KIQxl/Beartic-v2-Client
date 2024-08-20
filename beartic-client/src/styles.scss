@@ -1,12 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-body{
-    height: 50vh;
-}
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
 }
