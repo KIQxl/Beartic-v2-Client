@@ -1,0 +1,47 @@
+.product-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #f8f8f8;
+    gap: 1%;
+    padding: 1%;
+}
+
+.card {
+    width: 9%;
+    height: 35vh;
+    box-shadow: 1px 1px 10px grey;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    justify-content: space-between; /* Garante que o conteúdo será distribuído com o espaço entre as seções */
+}
+
+.card:hover {
+    transition: .3s;
+    transform: scale(1.03);
+}
+
+.card-image > img {
+    width: 100%;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+    flex-grow: 1; /* Faz com que essa seção ocupe o espaço restante */
+}
+
+.card-actions {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn:hover{
+    transition: 0.1s;
+    transform: scale(1.04);
+}
