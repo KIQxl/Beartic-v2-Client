@@ -1,0 +1,12 @@
+.search-container{
+    padding: 1%;
+    display: flex;
+    justify-content: end;
+    gap: 1%;
+}
+
+.search-container > input, select{
+    padding: 4px;
+    border-radius: 10px;
+    border: solid grey 1px;
+}

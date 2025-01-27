@@ -2,8 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    background-color: #f8f8f8;
     gap: 1%;
+    row-gap: 1%;
     padding: 1%;
 }
 
@@ -16,6 +16,7 @@
     flex-direction: column;
     gap: 3%;
     justify-content: space-between; /* Garante que o conteúdo será distribuído com o espaço entre as seções */
+    margin-bottom: 1%;
 }
 
 .card:hover {
