@@ -1,0 +1,38 @@
+// .products-order-grid{
+//     width: 90%;
+//     margin: auto;
+// }
+
+.products-order-grid {
+    width: 93%;
+    margin: auto;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+}
+
+.products-order-grid thead {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+}
+
+.products-order-grid th, .products-order-grid td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.products-order-grid th:first-child, .products-order-grid td:first-child {
+    width: 30%; /* Largura maior para o campo de Produto */
+}
+
+.products-order-grid th:nth-child(3), .products-order-grid td:nth-child(3) {
+    width: 10%; /* Largura menor para o campo de Quantidade */
+}
+
+.products-order-grid tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.products-order-grid tbody tr:hover {
+    background-color: #ddd;
+}
