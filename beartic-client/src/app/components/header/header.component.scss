@@ -54,6 +54,8 @@
     background-color: #ffffff; /* Cor de fundo da sublista */
     box-shadow: 0 0 5px 0 gray;
     border-radius: 5px; /* Adiciona borda arredondada para um efeito visual mais suave */
+    z-index: 9999; /* Garante que a sublista fique acima dos outros elementos */
+    min-width: 200px; /* Para garantir um espaçamento adequado */
 }
 
 /* Exibe a sublista quando o item pai for hover */
