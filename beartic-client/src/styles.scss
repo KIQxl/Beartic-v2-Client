@@ -27,9 +27,17 @@ main{
 }
 
 .btn-buy{
-    background-color: #21D375;
+    background-color: #00dc00;
+    color: #f8f8f8;
 }
 
 .btn-add-car{
     background-color: #6F9CDE;
+    color: #f8f8f8;
+}
+
+.btn:hover{
+    transition: 0.1s;
+    transform: scale(1.04);
+    color: #f8f8f8;
 }

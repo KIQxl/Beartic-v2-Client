@@ -1,23 +1,22 @@
 <div class="product-card-container">
-    <div class="card">
+    <div *ngFor="let product of products" class="card">
         <div class="card-image">
             <img src="assets/teclado.jpg">
         </div>
     
         <div class="card-info">
             <span class="card-name">
-                Teclado Congratulations
+                {{ product.title }}
             </span>
-    
+            
             <span class="card-price">
-                $199,99
+                {{product.price | currency: 'BRL': 'symbol' }}
             </span>
         </div>
 
         <div class="card-actions">
             <button class="btn btn-buy">Comprar</button>
-            <button class="btn btn-add-car">Adicionar ao carrinho</button>
+            <button class="btn btn-add-car" (click)="addToCart(product.id)">Adicionar ao carrinho</button>
         </div>
     </div>
 </div>
-

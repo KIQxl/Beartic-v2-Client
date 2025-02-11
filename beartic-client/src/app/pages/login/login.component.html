@@ -16,11 +16,11 @@
 
             <div>
                 <form class="form-login">
-                    <input name="user" type="text" placeholder="Nome de usuário">
+                    <input name="user" type="text" [(ngModel)]="username" placeholder="Nome de usuário">
 
-                    <input name="password" type="password" placeholder="Senha">
+                    <input name="password" type="password" [(ngModel)]="password" placeholder="Senha" >
 
-                    <button class="btn-login">Login</button>
+                    <button class="btn-login" (click)="login()">Login</button>
                 </form>
 
                 <span><a class="link" href="/home">Esqueceu a senha?</a></span>
